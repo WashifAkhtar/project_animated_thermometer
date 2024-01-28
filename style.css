@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #AAD9BB; /* Subtle background color */
+}
+  
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem; /* Increase font size of the heading */
+}
+
+#thermometer {
+  font-size: 6rem; /* Increase font size of the thermometer icon */
+  vertical-align: middle; /* Align the icon vertically with text */
+  margin-right: 10px; /* Add some space between the icon and text */
+  margin-left: 20px; /* Add some space between the icon and text */
+  color: orange; /* Adjust color as needed */
+}
+  
+.inside{
+    display: flex;
+    align-items: center;
+}
